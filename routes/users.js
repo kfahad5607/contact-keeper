@@ -46,7 +46,7 @@ check('password', 'Please enter a password with 6 or more characters').isLength(
                     }
                 }
 
-                jwt.sign(payload, config.get('jwtSecret'), {
+                jwt.sign(payload, process.env.JWT_SECRET, {
                     expiresIn: 7200
                 }, (err, token) => {
                     if (err) throw err

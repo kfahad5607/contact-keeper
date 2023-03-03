@@ -17,6 +17,7 @@
     "bcryptjs": "^2.4.3",
     "concurrently": "^5.1.0",
     "config": "^3.3.1",
+    "dotenv": "^16.0.3",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "git": "^0.1.5",
